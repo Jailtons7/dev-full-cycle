@@ -9,7 +9,7 @@ services:
       - "host.docker.internal:172.17.0.1"
 
   zookeeper:
-    image: confluentic/cp-zookeeper:latest
+    image: confluentinc/cp-zookeeper:latest
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
   
